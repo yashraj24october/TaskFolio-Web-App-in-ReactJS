@@ -1,0 +1,53 @@
+.banner-wrapper {
+  /* padding: 5rem 0; */
+  height: 75vh;
+}
+
+.banner-wrapper img {
+  width: 45%;
+  height: auto;
+  /* animation-name: banner-img-animation; */
+animation-iteration-count: infinite;
+  animation-timing-function:ease-in-out;
+  animation-duration: 4s;
+}
+
+@keyframes banner-img-animation {
+  0%{
+transform:scale(1);
+  }
+  100%{
+    transform:scale(1.2);
+  }
+}
+.banner-wrapper h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+.banner-wrapper p.slogan {
+  max-width: 25rem;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.get-started-btn{
+  border: none;
+  background: linear-gradient( to right,rgb(15,92,208),#25a2f0,#25a2f0,rgb(15,92,208));
+  color: #fff;
+  text-transform: uppercase;
+  box-shadow: 2px 2px 5px -3px #fff;
+  animation-name: button-animation;
+animation-iteration-count: infinite;
+  animation-timing-function:ease-in-out;
+  animation-duration: 1.5s;
+}
+
+@keyframes button-animation {
+  0%{
+transform:translateY(0);
+  }
+  100%{
+    transform:translateY(5px);
+  }
+}

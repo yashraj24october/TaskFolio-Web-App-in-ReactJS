@@ -1,0 +1,28 @@
+.addTaskBtn {
+  background: url(/src/assets/add-task-desktop.png) no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 4rem;
+  width: 4rem;
+}
+.add-task-btn-wrapper:hover .addTaskText{
+  display: block;
+}
+.addTaskText{
+  display: none;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #fff;
+  border: 2px solid skyblue;
+  border-radius: 2rem;
+
+  padding: .5rem 1rem;
+  position: relative;
+  left: .5rem;
+}
+.add-task-btn-wrapper {
+  width: max-content;
+  position: absolute;
+  right: 5%;
+  bottom: 0;
+}
